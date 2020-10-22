@@ -8,6 +8,12 @@
 
 ### Getting started
 
+download dependencies
+
+```bash
+npm install
+```
+
 build the app
 
 ```bash

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cmd/stop
+
+if [ "$1" = "debug" ]; then docker-compose up
+else                        docker-compose up -d
+fi
+

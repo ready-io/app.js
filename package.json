@@ -15,6 +15,6 @@
     "typescript": "^4.0.3"
   },
   "dependencies": {
-    "@ready.io/server": "0.0.3"
+    "@ready.io/server": "0.0.4"
   }
 }

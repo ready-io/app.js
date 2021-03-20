@@ -7,8 +7,6 @@
 
 <br>
 
----
-
 # app.js 
 
 Base ready.io app

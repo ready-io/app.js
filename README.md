@@ -1,8 +1,11 @@
-<img src="logo.png" alt="logo" />
+<img src="logo.png" alt="logo" align="left" />
 
-### Ready.io
+
+## Ready.io
 
 *Framework for agile development*
+
+<br>
 
 ---
 

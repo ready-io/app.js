@@ -1,9 +1,8 @@
+import { Controller } from '@ready.io/server';
 import { LoggerService, HttpService } from '@ready.io/server';
-export default class AppController {
+export default class AppController extends Controller {
     http: HttpService;
     logger: LoggerService;
-    requestsPerMinute: any;
     constructor(http: HttpService, logger: LoggerService);
-    init(): void;
-    hello(res: any): void;
+    index(): string;
 }

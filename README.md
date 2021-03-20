@@ -1,14 +1,25 @@
-# Base node.js app
+<img src="logo.png" alt="logo" />
+
+### Ready.io
+
+*Framework for agile development*
+
+---
+
+# app.js 
+
+Base ready.io app
 
 ### Prerequisites
 
-- Node.js 
-- Docker 
-- Docker compose
+- Node.js
+- npm
+- Docker (optional)
+- Docker compose (optional)
 
 ### Getting started
 
-download dependencies
+Install dependencies
 
 ```bash
 npm install
@@ -20,7 +31,7 @@ build the app
 npm run build
 ```
 
-start the app (development)
+start the app
 
 ```bash
 npm run serve
@@ -34,13 +45,13 @@ npm run start
 
 ### Deployment
 
-after build and upload files to the server, start the app using a docker container
+After build and upload files to the server, start the app using docker and docker-compose with
 
 ```bash
 cmd/start
 ```
 
-stop container
+to stop it use
 
 ```bash
 cmd/stop

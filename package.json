@@ -1,8 +1,7 @@
 {
-  "name": "app",
-  "version": "1.0.0",
+  "name": "app.js",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && tsc",
     "serve": "node dist/app.js",
@@ -10,11 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "typescript": "^4.0.3"
   },
   "dependencies": {
-    "@ready.io/server": "0.0.4"
+    "@ready.io/server": "0.1.0"
   }
 }

@@ -1,10 +1,10 @@
 <img src="logo.png" alt="logo" align="left" />
 
-<b style="font-size:1.5em;">Ready.io</b>
+# Ready.io
 
-<i>Framework for agile development</i>
+*Framework for agile development*
 
-<br>
+<hr>
 
 # app.js 
 
